@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Attribute Grabber",
+  "version": "1.0",
+  "description": "Helper extension to grab attributes from elements on a webpage.",
+  "browser_action": {
+    "default_icon": "grabber.png",
+    "default_popup": "popup.html",
+    "default_title": "Attribute Grabber"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "contextMenus",
+    "activeTab"
+  ]
+}
