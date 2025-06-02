@@ -8,3 +8,8 @@ Attribute Grabber is a Firefox browser extension that allows users to grab HTML 
 - **Popup Window**: Displays element details such as tag name, ID, class, name, type, value, placeholder, text content, and other attributes.
 - **Copy to Clipboard**: Easily copy individual attributes using the provided buttons.
 - **Dark/Light Mode**: Automatically adjusts the popup styling based on system settings.
+
+## Install
+- Paste the following into your firefox address window **about:debugging#/runtime/this-firefox**
+- Click Load Temporary Add-on...
+- Select manifest.json
