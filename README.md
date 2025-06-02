@@ -13,3 +13,10 @@ Attribute Grabber is a Firefox browser extension that allows users to grab HTML 
 - Paste the following into your firefox address window **about:debugging#/runtime/this-firefox**
 - Click Load Temporary Add-on...
 - Select manifest.json
+
+## Usage
+- Right click on the target element
+- Click on the context menu item **Grab html element**
+- Popup will display any found attributes 
+    ![alt text](screenshot.png)
+- Most recently scanned element will be stored in the extension popup window
